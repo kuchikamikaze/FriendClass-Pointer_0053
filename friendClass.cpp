@@ -18,3 +18,7 @@ class siswa {
     void setID(int pld);
     void displayAll(orang &a);
 };
+
+void siswa::displayAll(orang &a){
+    cout << id << endl << a.nama;
+}
