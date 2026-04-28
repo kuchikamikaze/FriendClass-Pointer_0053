@@ -14,3 +14,7 @@ class pelajar{
     pelajar() {nilai=100;}
     friend void manusia::showNilaiPelajar(pelajar &x);
 };
+
+void manusia::showNilaiPelajar (pelajar &x){
+    cout << x.nilai;
+}
