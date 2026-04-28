@@ -33,7 +33,7 @@ public:
         cout << "Keliling Layang-Layang: " << keliling() << endl;
     }
 
-    // friend function untuk akses ke keliling
+
     friend float kelilingLayang(LayangLayang l);
 };
 
