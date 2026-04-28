@@ -10,3 +10,11 @@ class orang {
     void setNama(string pNama);
     friend class siswa;
 };
+
+class siswa {
+    private:
+        int id;
+    public:
+    void setID(int pld);
+    void displayAll(orang &a);
+};
